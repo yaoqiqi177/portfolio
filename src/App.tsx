@@ -26,8 +26,6 @@ function App() {
 
   const handleEsc = (event: KeyboardEvent) => {
     if (event.key === 'Escape') {
-      console.log('Escape key pressed')
-      // Add your logic here
       setShowModal(null)
     }
   }
